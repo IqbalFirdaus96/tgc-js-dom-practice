@@ -1,30 +1,22 @@
 // PLACE YOUR CODE HERE
-<<<<<<< HEAD
+let firstH1=document.querySelector('h1');
+firstH1.style.color='green';
 
-// REPLACE THE NULL ON EACH LINE BELOW WITH YOUR ANSWER
-// DO NOT CHANGE THE VARIABLE NAMES
+let textOfLiFinished = document.querySelector('li.finished');
+textOfLiFinished.innerText='repay credit card debt';
 
-// Q1 - select the first <h2> element in the document
-let header2 = null;
+let liIdUrgent=document.querySelector('li#urgent');
+liIdUrgent.style.border='thick solid';
+liIdUrgent.style.borderColor='black';
+liIdUrgent.style.borderWidth='2px';
 
-// Q2 - select the first element with the class "highlight"
-let highlight = null;
+let classEmphasisUnderLined=document.querySelector('p span.emphasis');
+classEmphasisUnderLined.style.textDecoration ='underline';
 
-// Q3 - select the first <span class="highlight"> in the document
-let spanHighlight = null;
-
-// Q4 - select the first element that has the class 'finished'
-let finished= null;
-
-// Q5 - select the first <p> element in the document
-let firstParagraph=null;
-
-// Q6 - select the first <p class="emphasis"> in the document
-let emphasisParagraph=null;
-
-// LEAVE THE BELOW ALONE! DON'T TOUCH
-try {
-   module.exports = exports = {header2, highlight, finished, firstParagraph, emphasisParagraph};
-} catch (e) {}
-=======
->>>>>>> solutions
+let pClassEmphasis = document.querySelector('p.emphasis');
+pClassEmphasis.style.backgroundColor='orange';
+pClassEmphasis.style.fontSize='32px';
+pClassEmphasis.style.lineHeight='24px';
+document.querySelector('li#urgent span.todo').style.backgroundColor = 'yellow'
+let H2Change = document.querySelector('h2');
+H2Change.innerHTML='<span class="greetings">About Us</span>'
